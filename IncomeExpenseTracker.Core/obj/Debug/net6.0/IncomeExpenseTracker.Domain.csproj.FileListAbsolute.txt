@@ -1,0 +1,12 @@
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\bin\Debug\net6.0\IncomeExpenseTracker.Domain.deps.json
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\bin\Debug\net6.0\IncomeExpenseTracker.Domain.dll
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\bin\Debug\net6.0\IncomeExpenseTracker.Domain.pdb
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.csproj.AssemblyReference.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.AssemblyInfo.cs
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.dll
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\refint\IncomeExpenseTracker.Domain.dll
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\IncomeExpenseTracker.Domain.pdb
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker.Core\obj\Debug\net6.0\ref\IncomeExpenseTracker.Domain.dll

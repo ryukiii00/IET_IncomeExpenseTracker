@@ -1,0 +1,9 @@
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.csproj.AssemblyReference.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.AssemblyInfoInputs.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.AssemblyInfo.cs
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.csproj.CoreCompileInputs.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.RazorAssemblyInfo.cache
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker-UI.RazorAssemblyInfo.cs
