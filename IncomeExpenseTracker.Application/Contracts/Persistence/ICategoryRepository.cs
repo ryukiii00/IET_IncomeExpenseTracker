@@ -1,4 +1,4 @@
-﻿using IncomeExpenseTracker.Domain.Entities;
+﻿using IncomeExpenseTracker.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;

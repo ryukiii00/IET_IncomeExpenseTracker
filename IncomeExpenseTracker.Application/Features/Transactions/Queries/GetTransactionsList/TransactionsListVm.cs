@@ -1,4 +1,4 @@
-﻿using IncomeExpenseTracker.Domain.Entities;
+﻿using IncomeExpenseTracker.Domain.Common;
 
 namespace IncomeExpenseTracker.Application.Features.Transactions.Queries.GetTransactionsList
 {

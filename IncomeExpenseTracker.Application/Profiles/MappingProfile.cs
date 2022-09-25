@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using IncomeExpenseTracker.Application.Features.Transactions.Queries.GetTransactionsList;
+using IncomeExpenseTracker.Domain.Entities;
 
 namespace IncomeExpenseTracker.Application.Profiles
 {
@@ -7,7 +8,7 @@ namespace IncomeExpenseTracker.Application.Profiles
     {
         public MappingProfile()
         {
-            CreateMap<Domain.Entities.Transaction, TransactionsListVm>().ReverseMap();
+            CreateMap<Transaction, TransactionsListVm>().ReverseMap();
         }
     }
 }
