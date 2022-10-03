@@ -33,41 +33,45 @@ namespace IncomeExpenseTracker.Domain.Entities
             return new Transaction(Guid.NewGuid(), value, Common.Category.Expense, description);
         }
 
+        public static double CalculateDailyChartData(IList<Transaction>IncomeListByDay, IList<Transaction>ExpenseListByDay)
+        {
+            if (IncomeListByDay is null || ExpenseListByDay is null)
+                throw new ArgumentNullException();
 
-        //public static double GetDailyDifferenceInWeek(DateTime firstDayWeek, IList<Transaction> transactions)
-        //{
-        //    if (firstDayWeek.Date.DayOfWeek != DayOfWeek.Monday)
-        //        throw new ArgumentException("Error! The first day of the chart is not monday.");
+            double difference = 0;
 
-        //    var SundayOfWeek = firstDayWeek.AddDays(6);
+            if (IncomeListByDay.Count > ExpenseListByDay.Count)
+            {
+                for(var i = 1; i <= IncomeListByDay.Count; i++)
+                {
+                    if(IncomeListByDay[i].Value > ExpenseListByDay[i].Value)
+                    {
+                        difference += (IncomeListByDay[i].Value - ExpenseListByDay[i].Value);
+                    }
+                    else
+                    {
+                        difference += (ExpenseListByDay[i].Value - IncomeListByDay[i].Value);
+                    }
+                }
 
-        //    var WeeklyIncomes = transactions.Where(x =>
-        //                                 x.CreationDate.Month == firstDayWeek.Month &&
-        //                                    x.CreationDate.Date >= firstDayWeek.Date &&
-        //                                        x.CreationDate.Date <= SundayOfWeek.Date &&
-        //                                            x.Category == Domain.Common.Category.Income)
-        //                                        .OrderBy(x => x.CreationDate);
+                return difference;
+            }
+            else
+            {
+                for (var i = 1; i <= ExpenseListByDay.Count; i++)
+                {
+                    if (IncomeListByDay[i].Value > ExpenseListByDay[i].Value)
+                    {
+                        difference += (IncomeListByDay[i].Value - ExpenseListByDay[i].Value);
+                    }
+                    else
+                    {
+                        difference += (ExpenseListByDay[i].Value - IncomeListByDay[i].Value);
+                    }
+                }
 
-        //    var WeeklyExpenses = transactions.Where(x =>
-        //                     x.CreationDate.Month == firstDayWeek.Month &&
-        //                        x.CreationDate.Date >= firstDayWeek.Date &&
-        //                            x.CreationDate.Date <= SundayOfWeek.Date &&
-        //                                x.Category == Domain.Common.Category.Expense)
-        //                            .OrderBy(x => x.CreationDate);
-
-        //    double diff = 0;
-
-        //    for(var x = 1; x <= 7; x++ )
-        //    {
-        //        if(WeeklyExpenses.ElementAt(x).CreationDate == WeeklyIncomes.ElementAt(x).CreationDate)
-        //        {
-        //            diff = WeeklyIncomes.ElementAt(x).Value - WeeklyExpenses.ElementAt(x).Value;
-        //            var dayCount = firstDayWeek.AddDays(x++);
-        //        }
-
-                
-        //        // prob not worth
-        //    }
-        //}
+                return difference;
+            }
+        }       
     }
 }

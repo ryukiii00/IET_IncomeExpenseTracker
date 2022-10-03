@@ -9,6 +9,7 @@ C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpe
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\obj\Debug\net6.0\IncomeExpenseTracker.RazorAssemblyInfo.cs
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\appsettings.json
+C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\libman.json
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\IncomeExpenseTracker.staticwebassets.runtime.json
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\IncomeExpenseTracker.exe
 C:\Users\TheHa\source\repos\IET\IncomeExpenseTracker\bin\Debug\net6.0\IncomeExpenseTracker.deps.json
